@@ -1,5 +1,5 @@
 PODS:
-  - Map4dMap (3.3.6)
+  - Map4dMap (3.3.7)
 
 DEPENDENCIES:
   - Map4dMap
@@ -9,7 +9,7 @@ SPEC REPOS:
     - Map4dMap
 
 SPEC CHECKSUMS:
-  Map4dMap: 612a6988b413cec4b934053183edd85414df774c
+  Map4dMap: a7363399c78c6c20376daaa60195dafb0489d9aa
 
 PODFILE CHECKSUM: 30070f1f164ab21288de6fe303cc3541821a1f2c
 
