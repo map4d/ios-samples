@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		852B8E109630BF9F16B81BF9 /* Pods_simplemap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBDD564409AD76678F37637 /* Pods_simplemap.framework */; };
+		E5311E0A30AAE028002872C9 /* Map4dMap in Frameworks */ = {isa = PBXBuildFile; productRef = E5311E0930AAE028002872C9 /* Map4dMap */; };
 		E5BA4B2B30A42AB80080B1C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BA4B2A30A42AB80080B1C4 /* AppDelegate.swift */; };
 		E5BA4B2D30A42AB80080B1C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BA4B2C30A42AB80080B1C4 /* SceneDelegate.swift */; };
 		E5BA4B2F30A42AB80080B1C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BA4B2E30A42AB80080B1C4 /* ViewController.swift */; };
@@ -17,8 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A76F5D98D2A356E9A66F089E /* Pods-simplemap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simplemap.release.xcconfig"; path = "Target Support Files/Pods-simplemap/Pods-simplemap.release.xcconfig"; sourceTree = "<group>"; };
-		CBCE04280D89B623C1A068FF /* Pods-simplemap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simplemap.debug.xcconfig"; path = "Target Support Files/Pods-simplemap/Pods-simplemap.debug.xcconfig"; sourceTree = "<group>"; };
 		E5BA4B2730A42AB80080B1C4 /* simplemap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simplemap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BA4B2A30A42AB80080B1C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5BA4B2C30A42AB80080B1C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +25,6 @@
 		E5BA4B3330A42ABA0080B1C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5BA4B3630A42ABA0080B1C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5BA4B3830A42ABA0080B1C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFBDD564409AD76678F37637 /* Pods_simplemap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simplemap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,29 +32,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				852B8E109630BF9F16B81BF9 /* Pods_simplemap.framework in Frameworks */,
+				E5311E0A30AAE028002872C9 /* Map4dMap in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		53FFEAA28C98DD87F9D4AA9F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CBCE04280D89B623C1A068FF /* Pods-simplemap.debug.xcconfig */,
-				A76F5D98D2A356E9A66F089E /* Pods-simplemap.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		E5BA4B1E30A42AB80080B1C4 = {
 			isa = PBXGroup;
 			children = (
 				E5BA4B2930A42AB80080B1C4 /* simplemap */,
 				E5BA4B2830A42AB80080B1C4 /* Products */,
-				53FFEAA28C98DD87F9D4AA9F /* Pods */,
-				F49523C18F3405B93FF5D280 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,14 +69,6 @@
 			path = simplemap;
 			sourceTree = "<group>";
 		};
-		F49523C18F3405B93FF5D280 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EFBDD564409AD76678F37637 /* Pods_simplemap.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -98,11 +76,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5BA4B3B30A42ABA0080B1C4 /* Build configuration list for PBXNativeTarget "simplemap" */;
 			buildPhases = (
-				5AD52AC81CB3E2CD70DC9B4E /* [CP] Check Pods Manifest.lock */,
 				E5BA4B2330A42AB80080B1C4 /* Sources */,
 				E5BA4B2430A42AB80080B1C4 /* Frameworks */,
 				E5BA4B2530A42AB80080B1C4 /* Resources */,
-				F0FEA4190ED4B39F884DF7B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,6 +113,9 @@
 				Base,
 			);
 			mainGroup = E5BA4B1E30A42AB80080B1C4;
+			packageReferences = (
+				E5311E0830AAE028002872C9 /* XCRemoteSwiftPackageReference "map4d-map-ios-sdk" */,
+			);
 			productRefGroup = E5BA4B2830A42AB80080B1C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -158,48 +137,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5AD52AC81CB3E2CD70DC9B4E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-simplemap-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F0FEA4190ED4B39F884DF7B3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-simplemap/Pods-simplemap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-simplemap/Pods-simplemap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-simplemap/Pods-simplemap-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E5BA4B2330A42AB80080B1C4 /* Sources */ = {
@@ -355,7 +292,6 @@
 		};
 		E5BA4B3C30A42ABA0080B1C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBCE04280D89B623C1A068FF /* Pods-simplemap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -386,7 +322,6 @@
 		};
 		E5BA4B3D30A42ABA0080B1C4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A76F5D98D2A356E9A66F089E /* Pods-simplemap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -437,6 +372,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E5311E0830AAE028002872C9 /* XCRemoteSwiftPackageReference "map4d-map-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/map4d/map4d-map-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.3.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5311E0930AAE028002872C9 /* Map4dMap */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5311E0830AAE028002872C9 /* XCRemoteSwiftPackageReference "map4d-map-ios-sdk" */;
+			productName = Map4dMap;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E5BA4B1F30A42AB80080B1C4 /* Project object */;
 }
