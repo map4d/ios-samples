@@ -1,0 +1,15 @@
+{
+  "originHash" : "ef5e681f567f15b419c10bb2e9647c679377c9e495d1496cd5fa28b1a52a13e1",
+  "pins" : [
+    {
+      "identity" : "ipostmap-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/map4d/ipostmap-ios-sdk.git",
+      "state" : {
+        "revision" : "17776eb73bc174b5c00cff7680542f4ac4ce584c",
+        "version" : "3.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}
